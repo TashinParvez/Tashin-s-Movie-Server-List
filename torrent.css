@@ -1,0 +1,10 @@
+.navbar ul li .live-tv-server {
+  color: black;
+}
+.navbar ul li .torrent {
+  color: crimson;
+}
+/*=============================== Footer segment  =============================*/
+.torrent-footer {
+  margin: 123px 0px 0px 0px;
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <!--============= Title Segment =============-->
+        <title>Tahin's Movie-server-list</title>
+
+        <!--============= CSS Segment =============-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="livetv.css">
+
+        <!--============= Icons Segment =============-->
+        <!-- Bootstrap  -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!--============= Font Segment =============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Pacifico&display=swap"
+            rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <!--============= Start of Navigation Bar Segment =============-->
+            <section class="navigation-bar-segment">
+
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"> Tashin Parvez </a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse"
+                            id="navbarNavDropdown">
+
+                            <ul class="navbar-nav ms-auto">
+
+                                <li class="nav-item dropdown movie-server">
+                                    <a class="nav-link dropdown-toggle active
+                                        first-option"
+                                        href="index.html"
+                                        id="navbarDropdownMenuLink"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Movie Server
+                                    </a>
+                                    <ul class="dropdown-menu"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item dropdown-menu-item" href="index.html">All Movie Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="ftpserver.html">FTP
+                                                Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="localserver.html">Local
+                                                Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="streamserver.html">Stream
+                                                Movie Server</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items
+                                        live-tv-server" href="livetv.html">Live Tv</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items"
+                                        href="torrent.html">Torrent</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items"
+                                        href="liveradio.html">Live Radio
+                                        Server</a>
+                                </li>
+
+                                <li class="nav-item about-me">
+                                    <a class="nav-link active nav-items"
+                                        href="aboutme.html">About Me</a>
+                                </li>
+
+                                <li>
+                                    <form class="container-fluid
+                                        justify-content-start">
+                                        <button class="btn me-2 contact-btn"
+                                            type="button">
+                                            <a href="contact.html">
+                                                Contact ME
+                                            </a>
+                                        </button>
+                                    </form>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </section>
+            <!--============= End of Navigation Bar Segment =============-->
+        </header>
+
+
+        <main>
+
+            <!--============= Start of Live TV Segment =============-->
+            <section class="movie-server-list-segment container text-center
+                mb-5">
+                <p class="title mt-5">Live TV List</p>
+
+                <!--======= Live TV Items  =======-->
+
+                <div class="row pt-4 text-center">
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn
+                            text-center">
+                            <a href="https://bongobd.com/tv"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                    <img class="ftp-icon" src="logo/live-tv.svg">
+                                </span>
+                                Bongo TV
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                                <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="https://www.bioscopelive.com/bn/"
+                                class="server-address"
+                                target="blank">
+                                Bioscope TV
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://10.16.100.244/"
+                                class="server-address"
+                                target="blank">
+                                ICC FTP TV
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://tv.aliflailabd.com/"
+                                class="server-address"
+                                target="blank">
+                                Aliflailabd TV
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://live.moviebazar.net/"
+                                class="server-address"
+                                target="blank">
+                                IP TV
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://tv.ebox.live/"
+                                class="server-address"
+                                target="blank">
+                                E-Box Live
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://dflix.live/" class="server-address"
+                                target="blank">
+                                Dflix Live
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://www.jagobd.com/"
+                                class="server-address"
+                                target="blank">
+                                JagoBD Live
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://tv.tajpata.com/"
+                                class="server-address"
+                                target="blank">
+                                Tajpata Live
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://starflixbd.com/"
+                                class="server-address"
+                                target="blank">
+                                StarflixBD
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://projapoti.live/"
+                                class="server-address"
+                                target="blank">
+                                Projapoti Live
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://175.41.46.16/"
+                                class="server-address"
+                                target="blank">
+                                Live-Tv 1
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://172.16.50.22/"
+                                class="server-address"
+                                target="blank">
+                                Live-Tv 2
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="http://172.16.29.28/"
+                                class="server-address"
+                                target="blank">
+                                Live-Tv 3
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn">
+                            <span>
+                            <img class="ftp-icon" src="logo/live-tv.svg">
+                            </span>
+                            <a href="#" class="server-address">
+                                Comming Soon
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--============= Start of Footer Segment =============-->
+        <footer class="container">
+            <div class="footer-copyright text-center ">
+                Copyright © 2021 All-rights Reserved Tashin Parvez
+            </div>
+
+        </footer>
+        <!--============= End of Footer Segment =============-->
+        <!-- Javascript Section  -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

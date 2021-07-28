@@ -1,0 +1,107 @@
+* {
+  /* font-family: 'Lora', serif; */
+
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ccccff;
+  height: 100vh;
+  width: 100vw;
+  /* overflow-x: hidden; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*==================== Start of Navigation Bar ======================*/
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 2.25rem;
+  font-weight: 500;
+  padding: 0px 0px 0px 45px;
+  color: black;
+}
+
+.navbar ul li {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 22px 0px 0px;
+  color: black;
+}
+
+.navbar ul .movie-server a {
+  color: crimson;
+}
+ul li .dropdown-menu .dropdown-menu-item:hover {
+  color: #7cb9e8;
+}
+.navbar ul li .nav-items {
+  color: black;
+}
+
+.navbar ul .movie-server .first-option:hover,
+.navbar ul li .nav-items:hover {
+  color: #7cb9e8;
+}
+
+.navbar ul .about-me {
+  padding: 0px 11px 0px 0px;
+}
+
+.contact-btn {
+  background-color: #ccccff;
+  color: black;
+}
+
+.contact-btn:hover {
+  background-color: #7cb9e8;
+  color: black;
+}
+
+/*==================== End of Navigation Bar ======================*/
+
+/*==================== Start of Movie Server List ======================*/
+.title {
+  font-size: 59px;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  color: darkslategray;
+}
+.server-name {
+  font-size: 22px;
+  font-weight: 400;
+}
+.server-btn {
+  box-shadow: 0px 0px 36px -14px black;
+  outline: none;
+  border: none;
+}
+.server-btn:hover {
+  box-shadow: 0px 0px 40px -5px black;
+  background-color: darkslategray;
+}
+.server-name span {
+  padding: 0px 4px 0px 0px;
+}
+.server-address {
+  color: white;
+}
+.server-address:hover {
+  color: white;
+}
+.ftp-icon {
+  width: 29px;
+  padding: 0px 6px 8px 0px;
+}
+
+/*==================== End of Movie Server List ======================*/
+
+/*====================  (14th row) List ======================*/
+div div .server-btn-2 {
+  background-color: #0047b3;
+  outline: none;
+  border: none;
+}

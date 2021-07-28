@@ -1,0 +1,9 @@
+/*============================ Start of Navbar segment ========================*/
+.navbar ul .movie-server a {
+    color: black;
+}
+.navbar ul li .live-tv-server {
+    color: crimson;
+}
+
+/*============================ End of Navbar segment ========================*/

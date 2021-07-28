@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <!--============= Title Segment =============-->
+        <title>Tahin's Movie-server-list</title>
+
+        <!--============= CSS Segment =============-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="livetv.css">
+        <link rel="stylesheet" href="torrent.css">
+
+        <!--============= Icons Segment =============-->
+        <!-- Bootstrap  -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!--============= Font Segment =============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Pacifico&display=swap"
+            rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <!--============= Start of Navigation Bar Segment =============-->
+            <section class="navigation-bar-segment">
+
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"> Tashin Parvez </a>
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse"
+                            id="navbarNavDropdown">
+
+                            <ul class="navbar-nav ms-auto">
+
+                                <li class="nav-item dropdown movie-server">
+                                    <a class="nav-link dropdown-toggle active
+                                        first-option"
+                                        href="index.html"
+                                        id="navbarDropdownMenuLink"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Movie Server
+                                    </a>
+                                    <ul class="dropdown-menu"
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item dropdown-menu-item"
+                                                href="index.html">All Movie
+                                                Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="ftpserver.html">FTP
+                                                Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="localserver.html">Local
+                                                Server</a></li>
+                                        <li><a class="dropdown-item dropdown-menu-item" href="streamserver.html">Stream
+                                                Movie Server</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items
+                                        live-tv-server" href="livetv.html">Live Tv</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items torrent"
+                                        href="torrent.html">Torrent</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-items"
+                                        href="liveradio.html">Live Radio
+                                        Server</a>
+                                </li>
+
+                                <li class="nav-item about-me">
+                                    <a class="nav-link active nav-items"
+                                        href="aboutme.html">About Me</a>
+                                </li>
+
+                                <li>
+                                    <form class="container-fluid
+                                        justify-content-start">
+                                        <button class="btn me-2 contact-btn"
+                                            type="button">
+                                            <a href="contact.html">
+                                                Contact ME
+                                            </a>
+                                        </button>
+                                    </form>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </section>
+            <!--============= End of Navigation Bar Segment =============-->
+        </header>
+
+
+        <main>
+
+            <!--============= Start of Torrent Segment =============-->
+            <section class="torrent-segment container text-center mb-5">
+                <p class="title mt-5">Torrent List</p>
+
+                <!--======= Torrent Items  =======-->
+
+                <div class="row pt-4 text-center">
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://www.chd4.com/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                    <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Crazy HD
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a
+                                href="https://www.torrentbd.com/account-login.php?returnto=%2F"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Torrent BD
+                            </a>
+                        </button>
+                    </div>
+
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://thepiratebay10.org/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                The Piratebay
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://1337x.to/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                1337X
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://www.torlock.com/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Torlock
+                            </a>
+                        </button>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://ytsmovies.ws/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Ytsmovies
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="http://oceanofgames.com/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Ocean of Games
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://www.torrentfunk.com/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Torrent Funk
+                            </a>
+                        </button>
+                    </div>
+
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://kickasstorrents.to/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                kickasstorrents
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="https://www.limetorrents.pro/"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Lime torrents
+                            </a>
+                        </button>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-4 col-sm-6 mt-5">
+                        <button type="button" class="btn btn-primary btn-lg
+                            server-btn text-center">
+                            <a href="#"
+                                class="server-address"
+                                target="blank">
+                                <span>
+                                       <img class="ftp-icon" src="logo/torrent-icon.svg">
+                                </span>
+                                Comming Soon
+                            </a>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+        <!--============= Start of Footer Segment =============-->
+        <footer class="container">
+            <div class="footer-copyright text-center py-3 torrent-footer">
+                Copyright © 2021 All-rights Reserved Tashin Parvez
+            </div>
+
+        </footer>
+        <!--============= End of Footer Segment =============-->
+        <!-- Javascript Section  -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

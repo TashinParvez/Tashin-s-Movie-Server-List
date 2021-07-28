@@ -1,0 +1,14 @@
+
+.navbar ul li .torrent {
+    color: black;
+  }
+  .navbar ul li .liveradio {
+    color: crimson;
+  }
+
+
+
+/*========================== Footer segment ================= */
+.torrent-footer {
+    margin: 320px 0px 0px 0px;
+  }
